@@ -10,7 +10,6 @@ class ViewController: UIViewController {
         var razorpay: RazorpayCheckout!
         override func viewDidLoad() {
             super.viewDidLoad()
-            print("this is razor pay app")
             razorpay = RazorpayCheckout.initWithKey(testkey, andDelegate: self)
         }
        
